@@ -1,0 +1,17 @@
+.brand{
+    @apply  list-none w-[47.5%]
+    md:w-[23.5%]
+}
+
+.brand_image{
+    @apply w-full h-full object-cover
+}
+
+.brand_text{
+    @apply pt-4 text-center text-sm font-bold uppercase
+    lg:text-lg
+}
+
+.brand_title{
+    @apply py-1 tracking-[0.8px]
+}

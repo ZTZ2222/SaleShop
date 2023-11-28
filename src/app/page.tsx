@@ -1,3 +1,5 @@
+import BrandCard from "@/components/UI/BrandCard/BrandCard";
+
 export default function Home() {
     return (
         <section className="container">

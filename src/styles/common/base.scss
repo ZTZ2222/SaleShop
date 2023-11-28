@@ -1,0 +1,30 @@
+.trs {
+  @apply duration-300 ease-linear;
+}
+
+.ltrs {
+  @apply duration-500 ease-linear;
+}
+
+.trs-transform {
+  transition-property: transform;
+}
+
+.trs-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+}
+
+.trs-opacity {
+  transition-property: opacity;
+}
+
+.container {
+  @apply mx-auto px-4
+  lg:px-14
+  xl:px-28
+  3xl:px-52;
+
+  &._full {
+    @apply px-0;
+  }
+}

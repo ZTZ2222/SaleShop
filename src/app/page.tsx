@@ -1,7 +1,7 @@
 export default function Home() {
-  return (
-    <>
-      <div>Hello World!</div>
-    </>
-  );
+    return (
+        <section className="container">
+            <h1 className="text-h1 text-bBerryRed">Hello World!</h1>
+        </section>
+    );
 }
